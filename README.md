@@ -26,6 +26,18 @@ Antenn → LC-Bandpassfilter (380–385 MHz) → AD8313 (Log Detektor) → ESP32
 
 Ett egendesignat och egenbyggt LC-bandpassfilter som begränsar de frekvenser som når detektorn till 380–385 MHz. Filtret är ett flerstegs LC-filter med tre induktorer och tillhörande kondensatorer i en klassisk kopplad resonator-topologi.
 
+**Schematic:**
+
+![Schematic 380–385MHz LC-Filter](Schematic_380–385MHz-LC-Filter-v1.0.png)
+
+**PCB-layout:**
+
+![PCB 380–385MHz LC-Filter](PCB_380–385MHz%20LC-Filter%20v1.0.png)
+
+**3D-vy:**
+
+![3D-vy 380–385MHz LC-Filter](3d-Image_380–385MHz-LC-Filter-v1.0.png)
+
 **Filterkomponenter:**
 
 | Ref | Värde | Funktion |
@@ -42,6 +54,8 @@ Filtret är byggt på ett eget PCB med SMA-kontakter i båda ändar (ANT-sida oc
 > Filtret är inte perfekt och kommer att kräva trimning med en VNA eller signalgenerator för att uppnå önskad respons. Det kan ha mer insertion loss än optimalt, men det bör räcka för att begränsa detektorn till rätt frekvensband.
 
 ### 2. AD8313 Logaritmisk Detektor
+
+![AD8313 Modul](AD8313.jpg)
 
 AD8313 från Analog Devices är en logaritmisk RF-detektor som omvandlar RF-signalstyrka till en DC-spänning proportionell mot ineffekten i dBm.
 
@@ -77,7 +91,7 @@ En 128×64 pixel OLED ansluten via I2C visar:
 - Signal-styrka-ikon (stapelindikator liknande mobilsignal)
 - Peak- och sessionsmaxvärden
 
-### 5. BuzzerRF-signaldetektor för TETRA/Rakel-frekvensbandet baserad på AD8313
+### 5. Buzzer
 
 En passiv buzzer styrd via PWM ger akustisk feedback:
 
