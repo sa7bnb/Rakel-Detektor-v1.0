@@ -44,7 +44,7 @@ A custom-designed and hand-built LC bandpass filter that limits the frequencies 
 
 | Ref | Value | Function |
 |-----|-------|----------|
-| L1, L2, L3 | ~10 nH | Shunt inductors (adjustable) |
+| L1, L2, L3 | ~15 nH | Shunt inductors (adjustable) |
 | C1, C2 | 2.2 pF | Series coupling in/out |
 | C3, C4 | 1 pF | Series coupling between sections |
 | C5, C7 | 8.2 pF | Shunt capacitors |
