@@ -1,6 +1,7 @@
 # TETRA Signal Detector (380–385 MHz)
 # Rakel-Detektor-v1.0
 
+![Rakel-Detektor-v1.0](Rakel-Detektor-v1.0.jpg)
 
 An RF signal detector for the TETRA/Rakel frequency band based on an AD8313 logarithmic detector, a custom-built LC bandpass filter, and an ESP32-C3 microcontroller. The device provides a visual and audible alert when it detects RF activity within 380–385 MHz — the frequency range used by Rakel (Sweden's public safety network based on the TETRA standard).
 
